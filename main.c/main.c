@@ -12,5 +12,6 @@ int main()
     nome[strcspn(nome, "\n")] = '\0';
 
     printf("Ola, %s!\n", nome);
+    printf("Obrigado por utilizar meu codigo!\n");
     return 0;
 }
